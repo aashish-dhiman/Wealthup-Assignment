@@ -133,14 +133,16 @@ export default function Home() {
 
             {/* Section 2 API  */}
 
-            <div className="flex items-center flex-col gap-5 mt-5">
+            <div className="flex items-center flex-col gap-4 mt-5 mb-10">
                 <h3>Section-2</h3>
-                <div className="flex flex-col gap-3 mb-10">
-                    <div>
+                <div className="flex flex-col gap-5 w-[400px]">
+                    <div className="flex justify-between items-center">
                         <p>Code: {code}</p>
-                        <button onClick={fetchCode} className="border-2">Refresh</button>
+                        <button onClick={fetchCode} className="border-2">
+                            Refresh
+                        </button>
                     </div>
-                    <div>
+                    <div className="flex justify-between">
                         <input
                             type="text"
                             value={inputCode}
@@ -148,9 +150,11 @@ export default function Home() {
                             placeholder="Enter the above code"
                             className="border-2"
                         />
-                        <button onClick={handleSubmit} className="border-2">Submit</button>
+                        <button onClick={handleSubmit} className="border-2">
+                            Submit
+                        </button>
                     </div>
-                    {message && <p>Message: {message}</p>}
+                    <p>Message: {message}</p>
                 </div>
             </div>
         </>
