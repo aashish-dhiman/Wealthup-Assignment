@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WealthUp.me Internship Assignment
 
-## Getting Started
+## Introduction
 
-First, run the development server:
+This repository contains the code for the internship assignment provided by WealthUp.me. The goal of this assignment is to create a web design using Next.js from the given Figma design.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Technologies Used
+
+- **Next.js:** The project is built using Next.js, a React framework that enables server-side rendering and easy configuration.
+
+- **Tailwind CSS:** Tailwind CSS is used for styling, providing a utility-first approach for designing the user interface.
+
+## Setup Instructions
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/wealthup-internship.git
+    cd wealthup-internship
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3. Run the development server:
+
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+
+    Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
+
+## Assignment Details
+
+### Project Structure
+
+- The project follows a standard Next.js structure with a `components` directory for reusable components and `pages` directory for individual pages.
+
+```plaintext
+wealthup-internship
+|-- src
+|   |-- components
+|   |   |-- Button.jsx
+|   |   |-- Checkboxes.jsx
+|   |-- app
+|       |-- page.js
+|       |-- ...
+|-- public
+|   |-- bg.png
+|   |-- ...
+|-- ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Styling
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Tailwind CSS classes are used for styling components. Ensure the `tailwind.config.js` file is properly configured for your needs.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Figma Design
 
-## Learn More
+- The Figma design provided for the internship assignment is replicated in the code. Verify that the layout and styling match the design specifications.
 
-To learn more about Next.js, take a look at the following resources:
+## Additional Notes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- The application is optimized for viewports above 700px width, providing a responsive user experience.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Use the provided components, such as `Button`,`Checkboxes`, as building blocks for creating additional UI elements.
 
-## Deploy on Vercel
+## Contact Information
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you have any questions or need further clarification, please feel free to reach out to me.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
