@@ -1,8 +1,8 @@
-import express from "express";
-import mongoose from "mongoose";
-import cors from "cors";
-import morgan from "morgan";
-import dotenv from "dotenv";
+const express = require("express");
+const mongoose = require("mongoose");
+const cors =require("cors");
+const morgan = require("morgan");
+const dotenv = require("dotenv");
 
 const app = express();
 app.use(cors());
