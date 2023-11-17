@@ -3,11 +3,13 @@ const mongoose = require("mongoose");
 const cors =require("cors");
 const morgan = require("morgan");
 const dotenv = require("dotenv");
+const bodyParser = require("body-parser");
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(morgan("dev"));
+app.use(bodyParser.json());
 dotenv.config();
 
 const PORT = process.env.PORT || 8080;
