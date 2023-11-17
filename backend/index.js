@@ -1,19 +1,18 @@
-import express, { json } from "express";
+import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
 import morgan from "morgan";
-import { config } from "dotenv";
+import dotenv from "dotenv";
 import bodyParser from "body-parser";
 
 const app = express();
 app.use(cors());
-app.use(json());
+app.use(express.json());
 app.use(morgan("dev"));
 app.use(bodyParser.json());
-config();
+dotenv.config();
 
 const PORT = process.env.PORT || 8080;
-app.use(json());
 
 const connectDB = async () => {
     try {
