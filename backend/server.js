@@ -36,6 +36,10 @@ const CodeSchema = new mongoose.Schema({
 
 const Code = mongoose.model("Code", CodeSchema);
 
+app.get("/", (req, res) => {
+    res.send("API is working fine!");
+});
+
 app.get("/api/codes", async (req, res) => {
     try {
         const code = new Code({ value: generateCode() });
