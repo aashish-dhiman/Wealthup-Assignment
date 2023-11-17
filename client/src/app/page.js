@@ -38,7 +38,7 @@ export default function Home() {
 
     return (
         <>
-            <main className="flex items-center justify-center w-full min-h-screen py-5">
+            <main className="flex items-center justify-center w-full md:min-h-screen py-5">
                 {/* Main Container */}
                 <div className="relative overflow-hidden w-[700px] h-[650px]">
                     <div className="bg-gradient-to-r from-[#0A5783] via-[#10768D] to-[#189E99] w-full h-[500px]">

@@ -1,7 +1,8 @@
 import axios from "axios";
 
+//backend url
 const instance = axios.create({
-    baseURL: "http://localhost:8080", // Update with your backend URL
+    baseURL: "https://wealthup-assignment-api.vercel.app/", 
 });
 
 export const getCode = async () => {
