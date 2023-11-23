@@ -42,7 +42,7 @@ This repository contains the code for the internship assignment provided by Weal
 
 ### Backend (Node.js with MongoDB)
 
-1. Navigate to the `server` directory:
+1. Navigate to the `backend` directory:
 
    ```bash
    cd server
@@ -63,7 +63,7 @@ This repository contains the code for the internship assignment provided by Weal
 
 ### Backend
 
-1. Create a `.env` file in the `server` directory:
+1. Create a `.env` file in the `backend` directory:
 
    ```
    MONGODB_URI=your_actual_connection_string
