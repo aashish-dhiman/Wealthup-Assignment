@@ -45,7 +45,7 @@ This repository contains the code for the internship assignment provided by Weal
 1. Navigate to the `backend` directory:
 
    ```bash
-   cd server
+   cd backend
    ```
 
 2. Install dependencies:
